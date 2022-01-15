@@ -31,7 +31,15 @@ a{text-decoration: none;
     font-size: 16px;
     color:white;
 }
+/*logo start here*/
+.logos{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin:0px 120px 0px 120px;
 
+}
+.logos .logo img{width: 100px;}
 /*second secton start*/
 main{margin-bottom:10px;}
 .middle-head{text-align: center;}
@@ -150,6 +158,11 @@ footer{background-color: rgb(27, 26, 26);
         border-radius: 10px;
         padding: 10px;
     }
+
+    .logos{
+        width: 100%;
+        margin:auto;
+    }
     .middle-head{
         width: 100%;
 
@@ -193,6 +206,10 @@ footer{background-color: rgb(27, 26, 26);
         background-color: rgb(241, 238, 233);
         border-radius: 10px;
         padding: 10px;
+    }
+    .logos{
+        width: 100%;
+        margin:auto;
     }
     .middle-head{
         width: 100%;
